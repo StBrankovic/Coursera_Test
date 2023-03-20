@@ -1,0 +1,92 @@
+body {
+	color: #fff;
+	background-color: #85311b;
+	font-family: 'Rubik', sans-serif;
+}
+h2 {							/** OUR MENU **/
+	text-align: center;			/** da se stavi u centar **/
+	color: #c1853b;				/** zlatna boja **/
+	padding-top: 10px;			/** da se odvoji od vrha **/
+	margin-bottom: 15px;		/** spustiti sledece delove **/
+	font-size: 3em;
+
+}
+#header-navigation {			/** HEADER **/
+	background-color: #2f0505;	/** braon boja pozadine **/
+	border-radius: 0;			/** da se izbrise zakrivljenost **/
+	border: 0;					/** da se izbrise border **/
+
+}
+.navbar-brand h1 {				/** FOOD, LLC **/
+	padding-top: 40px;			/** da se odvoji od vrha **/
+	color: #c1853b;				/** zlatna boja **/
+	font-size: 2em;
+	font-weight: bold;			
+	margin-top: 0;				/** da se izbrise gornja margina **/
+	margin-bottom: 0;			/** da se izbrise donja margina **/
+	line-height: 0.75;			/** da se podigne ka gore **/
+}
+.navbar-brand a:hover, .navbar-brand a:focus {	/** FOOD, LLC **/
+	text-decoration: none;						/** da se izbrise underline **/
+}
+#navigation-list {				/** PHONE MENU **/
+	margin-top: 10px;			/** da se odvoji od sledeceg **/
+}
+#navigation-list a:hover {		/** CHICKEN, BEEF, SUSHI HOVER **/
+	background-color: #85311b;	/** svetlo braon boja pozadine **/
+}
+#navigation-list a {			/** PHONE CHICKEN, BEEF, SUSHI **/
+	color: #c1853b;				/** zlatna boja **/
+	text-align: center;			/** da se stavi u centar **/
+	font-size: 1.2em;
+	padding: 15px;				/** da se odvoje jedan od drugog **/
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {	/** PHONE MENU TRI CRTICE **/
+	border: 1.3px solid #c1853b;
+}
+.navbar-header button.navbar-toggle {	/** PHONE MENU TRI CRTICE **/
+	clear: both;				/** da se izbrise float **/
+	margin-top: 10px;			/** da se odbaci od vrha malo **/
+}
+section {						/** SECTION TEXT **/
+	background-color: #2f0505;	/** braon boja pozadine **/
+	text-align: left;			/** levo poravnanje **/
+	padding: 3px 10px 3px 10px;	/** da se odvoji text od ivica **/
+	color: #c1853b;				/** zlatna boja **/
+	margin: 10px;				/** margina dodata da se stavi malo u centar ceo box **/
+	height: 700px;				/** visina boxa **/
+	overflow: auto;				/** ako iskace text van boxa, da se napravi slider **/
+}
+section h3 {					/** CHICKEN, BEEF, SUSHI -> U SAMOM TEXTU **/
+	text-align: center;			/** da se stavi u centar **/
+	padding-bottom: 10px;		/** da se odvoji od donjeg teksta dodatno **/
+}
+section p a {					/** BACK TO THE TOP **/
+	text-decoration: none;		/** da se izbrise underline kod linka **/
+	color: #c1853b;				/** zlatna boja **/
+}
+section p a:hover {				/** BACK TO THE TOP HOVER **/
+	color: #fff;				/** bela boja **/
+	text-decoration: none;		/** da se izbrise underline kod linka **/
+}
+
+/** LARGE **/
+@media (min-width: 1200px) {
+	#header-navigation {		/** HEADER **/
+		height: 100px;			/** visina headera **/
+	}
+}
+
+/** MEDIUM **/
+@media (min-width:992px) and (max-width:1199px) {
+	#header-navigation {		/** HEADER **/
+		height: 100px;			/** visina headera **/
+	}
+}
+
+/** SMALL **/
+@media (min-width:767px) and (max-width:991px) {
+	#header-navigation {		/** HEADER **/
+		height: 100px;			/** visina headera **/
+	}
+}
