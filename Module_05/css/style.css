@@ -1,0 +1,370 @@
+body {
+	font-size: 16px;
+	color: #fff;							/** WHITE **/
+	background-color: #e7d3d3;				/** BACKGROUND COLOR **/
+	font-family: 'Rubik', sans-serif;		/** FONT **/
+}
+
+#header-nav {
+	background-color: #cce5ff;				/** NAVBAR COLOR **/
+	border-radius: 0;						/** radius/ jer brisemo zakrivljene uglove **/
+	border: 0;
+}
+#logo-img {
+	background: url("../images/restaurant-logo_large.png") no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0px;
+}
+
+.navbar-brand {
+	padding-top: 30px;
+}
+.navbar-brand h1 {						/** Restaurant name **/
+	font-family: 'Golos', sans-serif;
+	color: #a24e4e;						/** color for David Chu's... **/
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;				/** underline none **/
+}
+.navbar-brand p {						/** Kosher **/
+	color: #000;						/** BLACK **/
+	text-transform: uppercase;
+	font-size: .7em;
+	margin-top: 15px;
+}
+.navbar-brand p span {					/** KOSHER CERTIFIED **/
+	vertical-align: middle;				/** VERTIKALNO poravnanje sa kosher star **/
+
+}
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a:hover {
+	background: #e7d3d3;				/** hover color preko listi **/
+}
+#nav-list a {
+	color: #8b2323;						/** COLOR GLYPHICONS-A **/
+	text-align: center;
+}
+#nav-list a span {
+	font-size: 1.8em;
+}
+#phone {
+	margin-top: 5px;
+}
+#phone a {							/** 061-1234-567 **/
+	text-align: right;
+	padding-bottom: 0px;
+	padding-right: 0px;
+}
+#phone div {						/** We Deliver **/
+	color: #8b2323;
+	text-align: right;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #8b2323;		/** border for responsive menu **/
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -35px;
+}
+
+/** FOOTER **/
+.panel-footer {
+	margin-top: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #8b2323;
+	border-top: 0;
+}
+
+.panel-footer div.row {
+	margin-bottom: 35px;
+}
+#hours, #adress {
+	line-height: 2;
+}
+#hours > span, #adress > span {
+	font-size: 1.3em;
+}
+#adress p {
+	font-size: .8em;
+	line-height: 1.8;
+}
+#testimonials {
+	font-style: italic;
+}
+#testimonials p:nth-child(2) {
+	margin-top: 25px;
+}
+
+/** END OF FOOTER **/
+
+/** HOME PAGE **/
+.container .jumbotron {
+	box-shadow: 0 0 5px #8b2323;
+	border: 2px solid #8b2323;
+}
+/** BOXES **/
+#menu-tile, #specials-tile, #map-tile {
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #8b2323;
+	overflow: hidden;
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+	box-shadow: 0 1px 5px 1px #8b2323;
+}
+
+#menu-tile {					/** BOX FOR MENU **/
+	background: url('../images/menu-tile.jpg') no-repeat;
+	background-position: center;
+}
+
+#specials-tile {				/** BOX FOR SPECIALS **/
+	background: url('../images/specials-tile.jpg') no-repeat;
+	background-position: center;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span {
+	position: absolute;
+	bottom: 0;
+	width: 100%;		/** Da bude 100% popunjen box **/
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #cce5ff;
+	opacity: .8;
+}
+/** END OF BOXES **/
+
+/** END OF HOME PAGE **/
+
+.category-tile {
+	position: relative;
+	border: 2px solid #8b2323;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto 15px;
+}
+
+.category-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #cce5ff;
+	opacity: .8;
+}
+
+.category-tile:hover {
+	box-shadow: 0 1px 5px 1px #8b2323;
+}
+
+#menu-categories-title + div {
+	margin-bottom: 50px;
+}
+
+/** SINGLE CATEGORY **/
+
+.menu-item-tile {
+	margin-bottom: 25px;
+}
+.menu-item-tile hr {
+	width: 80%;
+}
+.menu-item-tile .menu-item-price {
+	font-size: 1.1em;
+	text-align: right;
+	margin-top: -15px;
+	margin-right: -15px;
+}
+.menu-item-tile .menu-item-price span {
+	font-size: .6em;
+}
+.menu-item-photo {
+	position: relative;
+	border: 2px solid #8b2323;
+	overflow: hidden;
+	padding: 0;
+	margin-right: -15px;
+	margin-left: auto;
+	margin-bottom: 20px;
+	max-width: 250px;
+}
+.menu-item-photo div {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 80px;
+	text-align: center;
+	background-color: #cce5ff;
+}
+.menu-item-description {
+	padding-right: 30px;
+}
+h3.menu-item-title {
+	margin: 0 0 10px;
+}
+.menu-item-details {
+	font-size: 0.9em;
+	font-style: italic;
+}
+
+/** END OF SINGLE CATEGORY **/
+
+/** LARGE DEVICES **/
+@media (min-width: 1200px) {
+	.container .jumbotron {
+		background: url('../images/jumbotron_1200.jpg') no-repeat;
+		height: 675px;
+	}
+}
+/** MEDIUM DEVICES **/
+@media (min-width: 992px) and (max-width: 1199px) {
+	/* HEADER */
+	#logo-img {
+		background: url("../images/restaurant-logo_medium.png") no-repeat;
+		width: 100px;
+		height: 100px;
+		margin: 5px 5px 5px 0px;
+	}
+	/* END HEADER */
+
+	/** HOME PAGE -> JUMBOTRON **/
+	.container .jumbotron {
+		background: url('../images/jumbotron_992.jpg') no-repeat;
+		height: 558px;
+	/** END OF HOME PAGE **/
+	}
+}
+/** SMALL DEVICES **/
+@media (min-width: 768px) and (max-width: 991px) {
+	/** HOME PAGE -> JUMBOTRON **/
+	.container .jumbotron {
+		background: url('../images/jumbotron_768.jpg') no-repeat;
+		height: 432px;
+	}
+	/** END OF HOME PAGE **/
+
+}
+/** EXTRA SMALL DEVICES **/
+@media (max-width: 767px) {
+	.navbar-brand {
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1 {				/** DAVID CHU'S RESTAURANT **/
+		padding-top: 10px;
+		font-size: 5vw;				/** 1vw = 1% of viewport width **/
+	}
+	.navbar-brand p {				/** KOSHER CERTIFIED **/
+		font-size: .6em;
+		margin-top: 12px;
+	}
+	.navbar-brand p img {			/** STAR-K **/
+		height: 25px;
+	}
+	#collapsable-nav a {			/** Glyphicons MENU size **/
+		font-size: 1.2em;
+	}
+	#collapsable-nav a span {		/** Glyphicons alone size **/
+		font-size: 1em;
+		margin-right: 5px;
+	}
+	#call-btn > a {					/** BOX FOR CALL **/
+		font-size: 1.5em;
+		display: block;
+		margin: 0 25px;
+		padding: 10px;
+		border: 2px solid #8b2323;
+		background-color: #cce5ff;
+		color: #8b2323;
+	}
+	#xs-deliver {
+		margin-top: 5px;
+		font-size: .8em;
+		letter-spacing: .1em;
+		text-transform: uppercase;
+		color: #8b2323;
+	}
+
+	/** FOOTER **/
+
+	.panel-footer section {
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	.panel-footer section:nth-child(3) {
+		margin-bottom: 0;	/** margina vec postoji za ceo red **/
+	}
+	.panel-footer section hr {
+		width: 40%;
+	}
+
+	/** END OF FOOTER **/
+
+	.container .jumbotron {
+		margin-top: 30px;
+		padding: 0;
+	}
+
+	#menu-tile, #specials-tile {
+		width: 360px;
+		margin: 0 auto 15px auto;
+	}
+
+	.menu-item-photo {
+		margin-right: auto;
+	}
+	.menu-item-tile .menu-item-price {
+		text-align: center;
+	}
+	.menu-item-description {
+		text-align: center;
+	}
+ }
+
+/** FOR SUPER EXTRA SMALL DEVICES **/
+@media (max-width: 479px) {
+	
+	/** HEADER **/
+	.navbar-brand h1 {
+		padding-top: 5px;
+		font-size: 6vw;
+	}
+	/** END OF HEADER **/
+
+	/** HOME PAGE **/
+	#menu-tile, #specials-tile {
+	width: 280px;
+	margin: 0 auto 15px;	/** Automatski se i na cetvrtom mestu pise auto (sta je na drugom mestu to je i na cetvrtom) **/
+	}
+	/** END OF HOME PAGE **/
+
+	.col-xxs-12 {
+	position: relative;
+  	min-height: 1px;
+  	padding-right: 15px;
+  	padding-left: 15px;
+  	float: left;
+  	width: 100%;
+	}
+}
